@@ -74,6 +74,7 @@ export function Footer() {
           <TextLoop className="text-xs text-zinc-500">
             <span>© 2024 Nim.</span>
             <span>Built with Motion-Primitives.</span>
+            <span>Customized by Alfredo Zuniga =)</span>
           </TextLoop>
         </a>
         <div className="text-xs text-zinc-400">
