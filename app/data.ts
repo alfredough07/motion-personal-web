@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
       'Highlights recent crimes along routes and allows users to report crimes within Montgomery County.',
     link: 'https://github.com/alfredough07/SafePath',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      "https://res.cloudinary.com/dney7its4/video/upload/v1753648026/Screen_Recording_2025-07-27_at_3.25.49_PM_dhrpa1.mov",
     id: 'project1',
   },
   {
@@ -42,7 +42,7 @@ export const PROJECTS: Project[] = [
     description: 'A CLI tool that finds nearby restaurants based on user input and enriches results with AI-generated summaries using Google Maps(Places API) and Gemini API.',
     link: 'https://github.com/alfredough07/FoodNearU',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      "https://res.cloudinary.com/dney7its4/video/upload/v1753647662/FoodNearUDemo_oeaw9g.mov",
     id: 'project2',
   },
 ]
