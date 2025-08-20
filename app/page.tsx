@@ -145,7 +145,7 @@ export default function Personal() {
             Currently pursuing a Computer Science degree at the University of Texas at Arlington.
             <br/>
             <br/>
-            I'm eager to apply my software engineering skills to solve real-world challenges as part of a dynamic team.
+            I’m eager to apply my software engineering skills to solve real-world challenges and contribute to innovative projects as part of a collaborative team.
 
           </p>
         </div>
