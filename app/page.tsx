@@ -18,6 +18,7 @@ import {
   TECH_STACK,
   EMAIL,
   SOCIAL_LINKS,
+  LANGUAGES,
 } from './data'
 
 const VARIANTS_CONTAINER = {
@@ -216,12 +217,28 @@ export default function Personal() {
           ))}
         </div>
       </motion.section>
+       <motion.section
+  variants={VARIANTS_SECTION}
+  transition={TRANSITION_SECTION}
+>
+  <h3 className="mb-5 text-lg font-medium">Languages</h3>
+  <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+    {LANGUAGES.map((lang) => (
+      <div
+        key={lang}
+        className="rounded-lg bg-zinc-100 px-3 py-2 text-center text-sm text-zinc-700 shadow-sm dark:bg-zinc-900 dark:text-zinc-300 dark:shadow-zinc-800/20"
+      >
+        {lang}
+      </div>
+    ))}
+  </div>
+</motion.section>
 
       <motion.section
   variants={VARIANTS_SECTION}
   transition={TRANSITION_SECTION}
 >
-  <h3 className="mb-5 text-lg font-medium">Tools & Technologies</h3>
+  <h3 className="mb-5 text-lg font-medium">Tools & Frameworks</h3>
   <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
     {TECH_STACK.map((tech) => (
       <div
@@ -233,6 +250,8 @@ export default function Personal() {
     ))}
   </div>
 </motion.section>
+   
+
 
       
 

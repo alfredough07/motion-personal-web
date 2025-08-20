@@ -74,24 +74,34 @@ export const SOCIAL_LINKS: SocialLink[] = [
   
 ]
 
-export const EMAIL = 'alfredo.zuniga@outlook.com'
+export const EMAIL = 'alfredo.zunigadiaz@outlook.com'
 
 export const TECH_STACK = [
-  'JavaScript',
-  'Python',
-  'Flask',
-  'Express',
+  'React',
+  'Bootstrap',
+  'React Router',
+  'Redux',
   'Node.js',
+  'Express',
+  'Flask',
+  'Firebase Auth',
+  'REST APIs',
+  'Git',
+  'GitHub',
+  'GitHub Actions',
+  'Trello',
+  'Postman',
+  'Insomnia',
+  'Agile / Scrum',
+  'Unit Testing'
+]
+
+export const LANGUAGES = [
+  'Java',
+  'Python',
   'C',
   'SQL',
-  'Firebase Auth',
-  'Git',
-  'GitHub', 
-  'Github Actions',
-  'Trello',
-  'Bootstrap',
-  'Insomnia',
-  'Postman',
-  'Restful APIs',
-
-  ]
+  'JavaScript',
+  'HTML',
+  'CSS',
+]

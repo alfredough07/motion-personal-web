@@ -9,14 +9,15 @@ export function Header() {
         <Link href="/" className="font-medium text-black dark:text-white">
           Alfredo Zuniga
         </Link>
-        <TextEffect
+          <TextEffect
           as="p"
           preset="fade"
-          per="char"
+          per="line"
           className="text-zinc-600 dark:text-zinc-500"
           delay={0.5}
         >
-          Software Engineering Intern
+          {`Software Engineering Intern
+        Expected Grad: Dec 2026`}
         </TextEffect>
       </div>
     </header>
